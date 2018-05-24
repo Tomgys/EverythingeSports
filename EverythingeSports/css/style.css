@@ -1,0 +1,228 @@
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #EBE8E4 url(../images/bg2.png) no-repeat center center fixed;
+	color: #212529;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+small {
+	font-size: 80%;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #3498db;
+}
+
+header {
+	width: 100%;
+	background-color: #2980b9;
+}
+
+header nav {
+	min-height: 50px;
+	margin: 0 auto;
+}
+
+header nav ul {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+header nav a {
+	padding: 0 15px;
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+	color: #ecf0f1;
+}
+
+header nav .active a, header nav a:hover {
+	background-color: #34495e;
+	color: #1abc9c;
+	
+}
+
+.container {
+	width: 100%;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background: rgba(236, 240, 241, 0.9);
+}
+
+.main {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	width: 100%
+}
+
+footer {
+	padding: 1px 15px;
+	background-color: #2c3e50;
+	color: #f9f9f9;
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer h5 {
+	margin: 30px auto;
+	text-align: left;
+}
+
+img.headerbanner {
+	width: 100%;
+	height: auto;
+	margin-bottom: -6px;
+}
+
+img.homepreview {
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin-top: 35px;
+}
+
+table.games {
+	width: 100%;
+}
+
+table.games + table.games {
+	margin-top: 30px;
+}
+
+table.games tbody tr td {
+	padding-top: 0;
+	width: 50%;
+	vertical-align: top;
+	padding: 10px;
+}
+
+table.games tbody tr td h3 {
+	margin-top: 0;
+}
+
+img.gamespreview {
+	max-width: 100%;
+	height: auto;
+}
+
+table.teams {
+	width: 100%;
+}
+
+table.teams thead tr th, table.teams tbody tr td {
+	width: 33%;
+}
+
+.teamlogo {
+	height: auto;
+	max-width: 50px;
+}
+
+.teamlineup
+{
+	width: 100%;
+	height: auto;
+}
+
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box;
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical 
+}
+
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+
+
+/* BREAKPOINTS */
+
+@media (min-width: 576px) {
+	.container, header nav ul, footer {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container, header nav ul, footer {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container, header nav ul, footer {
+		max-width: 960px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.container, header nav ul, footer {
+		max-width: 1140px;
+	}
+}
